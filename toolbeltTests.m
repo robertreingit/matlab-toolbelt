@@ -1,4 +1,8 @@
 function tests = toolbeltTests()
+% Function based tests for the toolbelt functions.
+% run with: runtests('toolbeltTests.m')
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     tests = functiontests(localfunctions);
 
