@@ -1,2 +1,4 @@
 # matlab-toolbelt
-A collection of useful helper functions.
+![toolbelt](icon.png)
+
+A collection of small, useful helper functions for data analysis in MATLAB.
