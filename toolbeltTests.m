@@ -38,3 +38,21 @@ function testClampMatrix(testCase)
     verifyEqual(testCase, clamp(-val,0,1), zeros(5,5));
 
 end
+
+function test_npoints(testCase)
+
+    mat = randn(21,5);
+    verifyEqual(testCase, [20,5], size(npoints(mat,20)))
+
+end
+
+function test_npoints2(testCase)
+
+    x = 1:21;
+    y1 = 3*x + 4;
+    y2 = npoints(y1,11);
+    verifyEqual(testCase,...
+        [y1(1),y1(11),y1(end)],...
+        [y2(1),y2(6),y2(end)]);
+
+end
