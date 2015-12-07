@@ -2,9 +2,9 @@ function res = npoints(mat, no_rows, type)
 % npoints(mat, no, type)
 %
 % Normalizes the matrix to have no_rows no of rows.
-% The routine used the internal matplot function interp1.
-% See help for furhter details with respect to interpolation
-% types.
+% The routine uses the internal matplot function interp1.
+% See help for further details with respect to interpolation
+% types. Spline interpolation is default.
 %
 % INPUT:
 % mat = matrix e R^mxn, signals are assumed columnwise
